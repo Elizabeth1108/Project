@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Main.css">
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help</title>
+    <style> 
+
+    .test{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+        padding: 30px;
+        line-height: 50px;
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .test h2{
+        font-weight: 600;
+        font-weight: 900px;
+    }
+    
+        
+    
+    .manual {
+        padding: 20px;
+        padding-top: 40px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif  ;
+        font-size: 25px;
+        line-height: 27px;
+        background-color: rgba(78, 132, 214, 0.485);
+        margin-top: 50px;
+    }
+    
+        
+    
+
+    </style>
+</head>
+<body>
+    <header class="top">
+        <a href="Useful.html">Интересное</a>
+        <a href="Test.html">Помощь</a>
+        <h2><a href="Project2.0.html">Mental health</a> </h2>
+        <a href="#"> Поиск</a>
+        <a href="About.html"> О проекте</a>
+    </header>
+    <p class="manual"> 
+        <b>ИНСТРУКЦИЯ</b>: ниже перечислены некоторые утверждения. Сначала прочитайте
+все утверждения, перечисленные в одном пункте. Выберите из каждого пункта
+один ответ, который наилучшим образом отражает ваше состояние. Обведите
+кружком стоящую рядом с этим утверждением цифру. Выбрать нужно только
+один вариант ответа из предложенных в каждом пункте. Убедитесь, что вы
+ответили на все вопросы.
+        Отвечая на вопросы, имейте в виду, что они относятся к состоянию не только на
+момент заполнения опросника, но и на протяжении последних 7 дней.
+
+    </p>
+    <form class="test">
+        <h2>1.Ощущение онемения или покалывания в теле</h2>
+        <input type="radio"  value="1"name="q1" id=""> Совсем не беспокоил 
+        <input type="radio" value="2" name="q1" id="">Слегка. Не слишком меня беспокоил
+        <input type="radio" value="3" name="q1" id="">Умеренно. Это было неприятно, но я мог/могла это переносить 
+        <input type="radio" value="4" name="q1" id=""> Очень сильно. Я с трудом мог/могла это выносить 
+        
+        <h2>2.Ощущение жары </h2>
+        <input type="radio" name="q2" id="">Совсем не беспокоил 
+        <input type="radio" name="q2" id="">Слегка. Не слишком меня беспокоил
+        <input type="radio" name="q2" id="">Умеренно. Это было неприятно, но я мог/могла это переносить 
+        <input type="radio" name="q2" id=""> Очень сильно. Я с трудом мог/могла это выносить
+
+        <h2>3. Дрожь в ногах </h2>
+        <input type="radio" name="q3" id="">Совсем не беспокоил 
+        <input type="radio" name="q3" id="">Слегка. Не слишком меня беспокоил
+        <input type="radio" name="q3" id="">Умеренно. Это было неприятно, но я мог/могла это переносить 
+        <input type="radio" name="q3" id=""> Очень сильно. Я с трудом мог/могла это выносить
+
+        <h2>4.Неспособность расслабиться </h2>
+        <input type="radio" name="q4" id="">Совсем не беспокоил 
+        <input type="radio" name="q4" id="">Слегка. Не слишком меня беспокоил
+        <input type="radio" name="q4" id="">Умеренно. Это было неприятно, но я мог/могла это переносить 
+        <input type="radio" name="q4" id=""> Очень сильно. Я с трудом мог/могла это выносить
+
+        <h2>5. Страх, что произойдет самое плохое </h2>
+        <input type="radio" name="q5" id="">Совсем не беспокоил 
+        <input type="radio" name="q5" id="">Слегка. Не слишком меня беспокоил
+        <input type="radio" name="q5" id="">Умеренно. Это было неприятно, но я мог/могла это переносить 
+        <input type="radio" name="q5" id=""> Очень сильно. Я с трудом мог/могла это выносить
+
+
+
+
+
+
+        <p><input type="button" value="Результаты"  onclick="chek()"></p>
+
+        <p id="answ"> Результаты:</p>
+
+    </form>
+    <!-- <script> -->
+        <!-- function chek(){ -->
+            <!-- if (document.forms[0].q1.value==)  -->
+
+        <!-- } -->
+    <!-- </script> -->
+</body>
+</html>

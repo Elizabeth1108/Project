@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Project2.0.css">
+    <title> Mental health</title>
+    <style> 
+        .top{
+            display: flex;
+            justify-content: space-around;
+            background-color:rgba(113, 150, 157, 0.116);
+            padding: 5px;
+            align-items: center;
+        }
+        .top a{
+
+            text-decoration: none;
+            background-color: rgba(218, 228, 231, 0.434);
+            padding: 25px;
+            width: 250px;
+            color: blueviolet;
+            
+        }
+        .top a:hover{
+            background-color: rgba(169, 220, 240, 0.434) ;
+            
+        }
+        .header{
+            margin-top: 50px;
+            background-image: url(img2t.jpg);
+            padding: 200px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-size: 30px;
+
+        }
+        .bottom{
+            margin-top: 300px;
+            padding-bottom: 30px;
+            background-color: rgb(4, 4, 4);
+            
+
+        }
+        .bottom p{
+            padding: 10px;
+            font-size: 25px;
+            color: aliceblue;
+        }
+        .top h1{
+            font-weight: 900;
+        }
+        .header p{
+            
+            color: rgba(253, 254, 255, 0.889);
+            padding-top: 10px;
+            padding-bottom: 80px;
+            padding-right: 30px;
+            padding-left: 30px;
+        
+        }
+    </style>
+</head>
+<body>   
+    <header class="top">
+        <a href="#">Материалы</a>
+        <a href="#">Помощь</a>
+        <h1>Mental health</h1>
+        <a href="#"> Поиск</a>
+        <a href="#"> О проекте</a>
+    </header>
+    <header class="header">
+            <p><b>Здоровье</b> - этo драгоценность, и притом единственная, ради которой действительно стоит не только не жалеть времени, сил, трудов и всяких благ, но и него частицей самой жизни, поскольку жизнь без него становиться нестерпимой и унизительной. Мишень де Монтень. </p>
+    </header>
+
+        <p>Мотивация</p>
+    <footer class="bottom">
+        
+        <p> <b>!</b> Данный сайт и материалы на нём не приравниваются к консультациям врачей, психотерапевтов и психологов. За полноценной помощью просьба обратиться к квалифицированным специалистам. </p>
+    </footer>
+
+
+</body>
+</html>
